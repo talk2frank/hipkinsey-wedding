@@ -39,7 +39,7 @@ export default function LandingPage() {
 
       {/*Venue Image*/}
       <ImageWithFallback 
-        src="/venue.png" 
+        src="./venue.png" 
         alt="Cragwood Country House Hotel illustration by Frank and Alison" 
         className="w-full max-w-2xl rounded-lg">
       </ImageWithFallback>

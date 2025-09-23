@@ -26,7 +26,7 @@ export default function OurStory() {
             <div className="rounded-2xl overflow-hidden shadow-lg">
               {/*Meeting Image*/}
               <ImageWithFallback
-                src="/walking.jpg"
+                src="./walking.jpg"
                 alt="Frank and Alison's hiking around Buttermere"
                 className="w-full h-64 object-cover">
               </ImageWithFallback>
@@ -38,7 +38,7 @@ export default function OurStory() {
             <div className="rounded-2xl overflow-hidden shadow-lg md:order-1">
              {/*Engagement Image*/}
               <ImageWithFallback
-                src="/stainglass.jpg"
+                src="./stainglass.jpg"
                 alt="Alison looking out over Lake Windermere at Claife Viewing Station"
                 className="w-full h-64 object-cover">
               </ImageWithFallback>
