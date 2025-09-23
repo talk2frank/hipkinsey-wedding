@@ -18,7 +18,7 @@ export function ImageWithFallback({ src, alt, className, style }: ImageWithFallb
   if (hasError) {
     return (
       <div 
-        className={`bg-gray-200 flex items-center justify-center text-gray-500 ${className}`}
+        className={`bg-gray-200 flex items-center justify-center text-gray-500`}
         style={style}
       >
         <span className="text-sm">Image placeholder</span>
