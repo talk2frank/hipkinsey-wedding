@@ -115,7 +115,7 @@ export default function FAQ() {
           </p>
           <div className="space-y-2 text-charcoal-600">
             <p>Email: hipkinsey@gmail.com</p>
-            <p>Phone: 07729 807020</p>
+            <p>Phone: 07729 807 020</p>
           </div>
         </div>
 
