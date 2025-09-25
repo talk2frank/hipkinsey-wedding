@@ -81,7 +81,7 @@ export default function FAQ() {
           <h1 className="font-dancing text-4xl md:text-5xl text-charcoal-800 mb-4">
             Frequently Asked Questions
           </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-lavender-200 to-purple-200 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-pink-200 to-rose-200 mx-auto rounded-full"></div>
           <p className="text-charcoal-600 mt-6">
             Everything you need to know about our special day
           </p>
@@ -94,7 +94,7 @@ export default function FAQ() {
               <AccordionItem 
                 key={index} 
                 value={`item-${index}`}
-                className="border border-gray-200 rounded-2xl px-6 py-2 bg-gradient-to-r from-gray-50 to-oat hover:from-pink-50 hover:to-rose-50 transition-all duration-300"
+                className="border border-gray-200 rounded-2xl px-6 py-2 bg-gradient-to-r from-pink-50 to-rose-50 hover:from-pink-50 hover:to-rose-50 transition-all duration-300"
               >
                 <AccordionTrigger className="text-left hover:no-underline py-4">
                   <span className="text-charcoal-800">{faq.question}</span>
@@ -126,7 +126,7 @@ export default function FAQ() {
             className="font-cormorant bg-pink-200 hover:bg-pink-300 text-charcoal-800 px-8 py-4 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105 text-lg font-bold"
             onClick={() => window.open('#', '_blank')}
           >
-            RSVP with us
+            RSVP
           </button>
         </div>
       </div>

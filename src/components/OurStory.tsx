@@ -20,27 +20,39 @@ export default function OurStory() {
             <div className="space-y-4">
               <h2 className="text-charcoal-800 font-cormorant font-bold text-3xl">How We Met</h2>
               <p className="text-charcoal-600 leading-relaxed font-cormorant text-lg">
-                The story of how we met is quite unremarkable and typical for this day and age. It's the timing of our first in person meeting that the romance begins. Thanks to lockdown it was an old fashioned courtship which entailed weeks of walking dates. The January snow the perfect backdrop for our first few meetings and a legendary snowball fight which was when we both knew this was something special (Alison by the lack of care about her hair looked and Frank by the killer shot that resulted in a piece of snow getting lodged in his ear). As the days got warmer, so did our hearts...
+                There’s nothing remarkable or romantic how the way we met, 
+                it’s typical of the modern world. Our first meeting however, 
+                and early dates were less typical of modern day. 
+                Thanks to lockdown we embarked on an old fashioned courtship, 
+                “stepping out” together every weekend; no restaurants, no cafe, 
+                no bars, just walks. The January snow the perfect back drop for 
+                getting to know each other and snowball fights that 
+                marked the beginning of something special. We’d been “stepping out” 
+                for five months before we were finally able to sit in a restaurant 
+                together and by then it was a done deal.
+                Over the last four years we’ve created so many amazing memories; 
+                14 plane journeys, walked 20 fells, been to three Glastobury’s and had one proposal.
               </p>
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-lg">
+            <div className="">
               {/*Meeting Image*/}
               <ImageWithFallback
-                src="./walking.jpg"
-                alt="Frank and Alison's hiking around Buttermere"
-                className="w-full h-64 object-cover">
+                src="./image1.png"
+                alt="Frank and Alison's first year together. Forur pictures including selfies in Buttermere, at a wwaterfall, Lyzzick hall, and Ingleton"
+                className="h-full h-64 object-cover">
               </ImageWithFallback>
             </div>
           </div>
 
+
           {/* The Engagement */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="rounded-2xl overflow-hidden shadow-lg md:order-1">
+            <div className="">
              {/*Engagement Image*/}
               <ImageWithFallback
-                src="./stainglass.jpg"
-                alt="Alison looking out over Lake Windermere at Claife Viewing Station"
-                className="w-full h-64 object-cover">
+                src="./image2.png"
+                alt="Frank and Alison since the enagagement, four pictures inluding Claife Viewing Station, Coniston, Harrison Stickle, and Horsforth in the snow"
+                className="h-full h-64 object-cover">
               </ImageWithFallback>
             </div>
             <div className="space-y-4 md:order-2">
@@ -70,7 +82,7 @@ export default function OurStory() {
             className="font-cormorant bg-pink-200 hover:bg-pink-300 text-charcoal-800 px-8 py-4 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105 text-lg font-bold"
             onClick={() => window.open('#', '_blank')}
           >
-            RSVP with us
+            RSVP
           </button>
         </div>
       </div>
