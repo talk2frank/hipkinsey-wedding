@@ -16,8 +16,8 @@ export default function OurStory() {
         {/* Story Content */}
         <div className="space-y-12">
           {/* How We Met */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-4">
+          <div className="flex flex-col sm:flex-row md:gap-8 items-center w-full">
+            <div className="space-y-4 sm:w-1/2">
               <h2 className="text-charcoal-800 font-cormorant font-bold text-3xl">How We Met</h2>
               <p className="text-charcoal-600 leading-relaxed font-cormorant text-lg">
                 There’s nothing remarkable or romantic how the way we met, 
@@ -34,7 +34,7 @@ export default function OurStory() {
                 14 plane journeys, walked 20 fells, been to three Glastobury’s and had one proposal.
               </p>
             </div>
-            <div className="">
+            <div className="sm:w-1/2">
               {/*Meeting Image*/}
               <ImageWithFallback
                 src="./image1.png"
@@ -46,8 +46,8 @@ export default function OurStory() {
 
 
           {/* The Engagement */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="">
+          <div className="flex flex-col-reverse sm:flex-row md:gap-8 items-center w-full">
+            <div className="sm:w-1/2">
              {/*Engagement Image*/}
               <ImageWithFallback
                 src="./image2.png"
@@ -55,10 +55,21 @@ export default function OurStory() {
                 className="h-full h-64 object-cover">
               </ImageWithFallback>
             </div>
-            <div className="space-y-4 md:order-2">
+            <div className="space-y-4 sm:w-1/2">
               <h2 className="text-charcoal-800 font-cormorant font-bold text-3xl">The Engagement</h2>
               <p className="text-charcoal-600 leading-relaxed font-cormorant text-lg">
-                The proposal was a real shock!
+                The proposal was a real shock!There’s nothing remarkable or romantic how the way we met, 
+                it’s typical of the modern world. Our first meeting however, 
+                and early dates were less typical of modern day. 
+                Thanks to lockdown we embarked on an old fashioned courtship, 
+                “stepping out” together every weekend; no restaurants, no cafe, 
+                no bars, just walks. The January snow the perfect back drop for 
+                getting to know each other and snowball fights that 
+                marked the beginning of something special. We’d been “stepping out” 
+                for five months before we were finally able to sit in a restaurant 
+                together and by then it was a done deal.
+                Over the last four years we’ve created so many amazing memories; 
+                14 plane journeys, walked 20 fells, been to three Glastobury’s and had one proposal.
               </p>
             </div>
           </div>
