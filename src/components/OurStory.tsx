@@ -20,18 +20,16 @@ export default function OurStory() {
             <div className="space-y-4 sm:w-1/2">
               <h2 className="text-charcoal-800 font-cormorant font-bold text-3xl">How We Met</h2>
               <p className="text-charcoal-600 leading-relaxed font-cormorant text-lg">
-                There’s nothing remarkable or romantic how the way we met, 
-                it’s typical of the modern world. Our first meeting however, 
-                and early dates were less typical of modern day. 
-                Thanks to lockdown we embarked on an old fashioned courtship, 
-                “stepping out” together every weekend; no restaurants, no cafe, 
-                no bars, just walks. The January snow the perfect back drop for 
-                getting to know each other and snowball fights that 
-                marked the beginning of something special. We’d been “stepping out” 
-                for five months before we were finally able to sit in a restaurant 
-                together and by then it was a done deal.
-                Over the last four years we’ve created so many amazing memories; 
-                14 plane journeys, walked 20 fells, been to three Glastobury’s and had one proposal.
+                Snow threatened to derail our first date, and our second, and third come to that. 
+                Thanks to lockdown there was nowhere to grab a quick coffee, 
+                “a few drinks” or junk yard golf, designed to distract from how nervous and awkward first dates are. 
+                We had no choice but to sit in our discomfort, embarked on a more traditional courtship, 
+                and spent our first few months outside; getting to know each other the old fashioned way. 
+                It was on one of these snow dates in January 2021 that a ferocious snowball fight changed everything 
+                and I finally got to see Frank. As I launched my final, deafening (it landed in his ear) attack, 
+                I realised this was someone who I was going to laugh with, have fun with, and be myself with. 
+                I was right. Over the last four years we’ve created so many amazing memories; 14 plane journeys, 
+                walked 20 fells, shed countless tears of laughter, survived three Glastobury’s, and had one proposal.
               </p>
             </div>
             <div className="sm:w-1/2">
@@ -58,18 +56,16 @@ export default function OurStory() {
             <div className="space-y-4 sm:w-1/2">
               <h2 className="text-charcoal-800 font-cormorant font-bold text-3xl">The Engagement</h2>
               <p className="text-charcoal-600 leading-relaxed font-cormorant text-lg">
-                The proposal was a real shock!There’s nothing remarkable or romantic how the way we met, 
-                it’s typical of the modern world. Our first meeting however, 
-                and early dates were less typical of modern day. 
-                Thanks to lockdown we embarked on an old fashioned courtship, 
-                “stepping out” together every weekend; no restaurants, no cafe, 
-                no bars, just walks. The January snow the perfect back drop for 
-                getting to know each other and snowball fights that 
-                marked the beginning of something special. We’d been “stepping out” 
-                for five months before we were finally able to sit in a restaurant 
-                together and by then it was a done deal.
-                Over the last four years we’ve created so many amazing memories; 
-                14 plane journeys, walked 20 fells, been to three Glastobury’s and had one proposal.
+                It was a hot sunny day on the west bank of lake Windermere, she still hadn't guessed. I don't think. 
+                I watched her gazing South, framed by the stain glass viewing point of Claife Viewing Station. 
+                I remember thinking it would be the last time I'd look at her as 'my girlfriend', 
+                and unless I'd drastically misjudged things, she'd soon be 'my fiance'. 
+                It had been over 6 months since I'd asked her father for her hand, 
+                2 months since I'd bought the ring, and what felt like a very long time waiting for the perfect moment. 
+                This was it. Well, at least it would be...if I could work out how to open the box: 
+                "I have a question to ask you... once I can get this box open". 
+                I didn't get the chance to put the ring on her finger, it was out and on her hand in a flash. 
+                Yes it was the perfect moment, and I knew there were more perfect moments to come... to be continued...
               </p>
             </div>
           </div>
