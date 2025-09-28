@@ -3,72 +3,87 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './
 export default function FAQ() {
   const faqs = [
     {
+      question: "I can’t make the wedding, will it be streamed?",
+      answer: "Yes. We know that travelling to Windermere isn’t possible for everyone and we completely understand. We’re working out the best channel to use, so those who can’t make it can watch remotely. Just add your email address to your RVSP form and we’ll make sure we send the details when it’s set up."
+    },
+    {
       question: "What time should I arrive?",
-      answer: "If you are attending the ceremony please be in your seats for at 1pm ready for the ceremony to begin at 1.30pm."
+      answer: "Please be in your seats by 1:00pm, the ceremony will start at 1:30pm. We ask evening guests to arrive at 7:30pm."
     },
     {
-      question: "What should I wear?",
-      answer: "We don't have a strict dress code but we have a few asks: tattoos to be covered where possible, no trainers or jeans and that men wear shirt, tie and jacket if invited to the ceremony."
-    },
+     question: "How do I get to/from Cragwood Country House Hotel?",
+     answer: "The easiest way to get to Cragwood Country House is by car and is a 10 minutes drive north from Windermere town center.\n\nThe nearest railway station is Windermere station, about 4 miles away.\n\nLocal taxi companies include:\nLakes Taxis (015394 48000),\nWindermere Taxis (015394 46464),\nAmber Taxis (015394 68681),\nAce Taxi Windermere (015394 45445),\nWe recommend pre-booking taxis ASAP especially return journeys with it being a bank holiday weekend.\n\nYou can also get to Cragwood via Bus (555 or 599) the nearest stop is Brockhole which is next door to Cragwood Country House.\nThe 599 service is daytime only, the 555 bus is the main bus line\nThe last bus heading towards Grassmere and Ambleside (North) is at 22:36,\nThe last bus heading towards Kendal and Windermere (South) is at 23:24,\nYou can use the Stagecoach app for live bus tracking."
+    }, 
     {
-      question: "Is there parking available?",
-      answer: "Yes! Cragwood Country House Hotel has complimentary parking for all wedding guests. The venue is easily accessible by car, and we recommend carpooling when possible."
-    },
+     question: "Is there parking available?",
+     answer: "Cragwood Country House Hotel has complimentary parking for all our guests. The venue is easily accessible by car. We recommend car sharing where possible."
+    }, 
     {
-      question: "Will there be food for dietary restrictions?",
-      answer: "Absolutely! There' s a space on the RSVP form for you to let us know about any dietary requirements."
+     question: "Can I book a room in the hotel?",
+     answer: "Cragwood Country House is a beautiful hotel but small, with just 22 rooms. While we would love to have all our guests stay with us in the hotel we've prioritised our day guests and allocated rooms on this basis and have been in touch with them already. If you’re not sure if we’ve allocated you a room please get in touch."
     },
-    {
-      question: "Can I bring a plus-one?",
-      answer: "We've allocated plus-ones based on our venue capacity. If your invitation includes 'and guest,' then yes! If you're unsure, please check your invitation or contact us directly."
+     {
+     question: "I have a room, what do I need to do?",
+     answer: "No need to contact the hotel, all bookings are allocated by us. If you have specific accomodation needs or you would like to pay for your room in instalments please get in touch with us. Note: Any remaining balance for your room is due on check-out."
     },
-    {
-      question: "What other accommodation options are available?",
-      answer: "Cragwood Country House is located 2.5 miles from Windermere railway station, 2.6 miles from Troutbeck and 2.7 miles from Ambleside town centre so there are plenty of Bed & Breakfasts, Air B&B's etc available. Please bear in mind that the wedding takes place on May Bank Holiday weekend which will affect availability. For those who have camper vans, you are able to use the car park at Cragwood but bear in mind there will be no electrical hook up or toilet block. There is a breakfast option available for you at £15 per head. Please get in touch with Frank or Alison if you'd like to arrange this."
+     {
+     question: "What are the check-in and check-out times?",
+     answer: "Check in is 3pm on the Friday, rooms will be ready for the Saturday. Check out is 11am, a late check out of 12pm carries an additional cost and can be arranged at check-in."
     },
-    {
-      question: "Can I book a room in the hotel?",
-      answer: "Cragwood Country House is a beautiful hotel but small with just 22 rooms. While we would love to have all our guests stay with us in the hotel we've prioritised our day guests and allocated rooms on this basis. Note: The hotel is blocked out for exclusive use on Saturday 23rd May so room allocation is through Frank and Alison. If you are staying in the hotel and have specific needs around accessibility etc or if you would like to pay for your room in instalments please get in touch with Frank and Alison directly. The balance for your room is due on check-out."
+     {
+     question: "What other accommodation options are available?",
+     answer: "Cragwood Country House is 2.5 miles from Windermere railway station, 2.6 miles from Troutbeck and 2.7 miles from Ambleside town centre so there are plenty of Bed & Breakfasts, AirBNBs, cottages etc available.\nPlease bear in mind that the wedding takes place on May bank holiday weekend which will affect availability so book soon if you have not done so already."
     },
-    {
-      question: "What are the check in and check out times?",
-      answer: "Check in is 3pm, check out 11am, a late check out of 12pm can be arranged at an additional cost."
+     {
+     question: "Can I camp on site?",
+     answer: "There are plenty of campsites in the area. Camper vans are welcome in the hotel car park but bear in mind there will be no electrical hook up. There is a breakfast option available at £15 per head if required. Please get in touch with us directly if you would like to book breakfast or have any questions."
     },
-    {
-      question: "Bringing alcohol",
-      answer: "If you would like to bring a bottle of wine etc to enjoy during your stay you are welcome to do this. However, it must be consumed in your room, any drinks found being consumed outside your room that has not been purchased in the hotel will incur a fine of £1,000 which you will be liable to pay."
+     {
+     question: "Will there be food for evening guests?",
+     answer: "Yes. We’ll be serving mini fish and chips. If you have any dietary requirements please let us know when you RSVP. "
     },
-    {
-      question: "What about confetti?",
-      answer: "Confetti will be provided, if you would like to bring your own please ensure it is biodegradable."
+     {
+     question: "Will dietary requirements be catered for?",
+     answer: "Absolutely. There’s a space on the RSVP form for you to let us know about and dietary requirements."
     },
-    {
-      question: "Will there be transportation provided?",
-      answer: "The ceremony and reception are both at the same venue, so no transportation between events is needed. For getting to and from the venue, we recommend driving or arranging taxis. We can provide local taxi company recommendations."
+     {
+     question: "What time does it all end?",
+     answer: "Don't remind us! But yes it will end, the last song will finish at midnight with last orders at the bar 12:45am."
     },
-    {
-      question: "What are the local transport options?",
-      answer: "Cragwood is about 10 minutes drive from Windermere town center. Local taxi companies include Lakes Taxis (015394 48000), Windermere Taxis (015394 46464), Amber Taxis (015394 68681), and Ace Taxi Windermere (015394 45445). We recommend pre-booking taxis ASAP especially return journeys with it being a bank holiday weekend. The nearest train station is Windermere station, about 4 miles away. You can also get to Cragwood via Bus, the nearest stop is Brockhole which is next door to Cragwood. Use the Stagecoach app for live tracking for Brockhole: 555 last bus heading towards Grassmere and Ambleside (North) 22:36, last buses heading towards Kendal and Windermere (South) 23:24, 599 also available during the day."
+     {
+     question: "Is there a dress code?",
+     answer: "We have a just few asks for our day guests:\nMen should be in shirts, jackets, and ties\nPlease no jeans or trainers\nAny tattoos to be covered up where possible"
     },
-    {
-      question: "What about gifts?",
-      answer: "Your presence is the greatest gift! If you'd like to give something, we've set up a small registry and would also greatly appreciate contributions to our honeymoon fund. Details will be shared closer to the date."
+     {
+     question: "Should I bring a gift or wedding present?",
+     answer: "Your presence is the greatest gift! If you'd like to gift something, we would greatly appreciate contributions to our honeymoon fund. We'll try set up a way to do that soon."
     },
-    {
-      question: "Will the ceremony be outdoors?",
-      answer: "The ceremony will take place inside. However, we plan to take advantage of Cragwood's beautiful gardens and the stunning views of Lake Windermere after the ceremony - weather permitting."
+     {
+     question: "Can I bring a plus one?",
+     answer: "We've allocated all plus-ones already, based on our venue capacity, and addressed our invitations accordingly. If you're unsure, please check your invitation or contact us directly."
     },
-    {
-      question: "Can children attend?",
-      answer: "Absolutely not. We've decided to keep our wedding child-free to create a more relaxed atmosphere for everyone. We hope you understand and can still celebrate with us."
+     {
+     question: "Can children attend?",
+     answer: "Sadly not. We've decided to keep our wedding child-free to create a more relaxed atmosphere for everyone. We hope you understand and can still celebrate with us."
     },
-    {
-      question: "Is there a hashtag for photos?",
-      answer: "Yes! Please use #HipkinseyWedding2026 when sharing photos on social media. We'd love to see the day through your eyes and collect all the wonderful memories!"
+     {
+     question: "Will the ceremony be outside?",
+     answer: "The ceremony will be indoors. We hope to be able to make the most of Cragwood's beautiful grounds after the ceremony - weather permitting (it is the lakes after all). "
     },
-    {
-      question: "What's the weather like in May?",
-      answer: "May in the Lake District is usually lovely! Expect temperatures around 15-18°C (60-65°F) with possible light showers. We recommend bringing a light jacket or wrap for the evening."
+     {
+     question: "Can I bring confetti?",
+     answer: "Confetti will be provided. If you would like to bring your own please make sure it is biodegradable."
+    },
+     {
+     question: "Can I bring my own alcohol?",
+     answer: "If you would like to bring a bottle of wine etc to enjoy in your room during your stay you are welcome to do so. However, it must be consumed in your room, any drinks found being consumed outside your room that has not been purchased in the hotel (or the appropriate corkage paid) will incur a fine of £1,000 which you will be liable to pay. If you intend on bringing alcohol to consume outside your room (e.g. a special toast) please let us know so we can make any necessary arrangments."},
+     {
+     question: "Can I smoke and vape on the premises?",
+     answer: "Smoking and vaping are not permitted inside the hotel or outside the front of the hotel/garden. We will make arrangements for a smoking area and let you know where this is. Please be mindful of our none smoking/vaping guests. "
+    },
+     {
+     question: "What will the the weather be like, what should I wear?",
+     answer: "May in the Lake District is usually lovely! Expect temperatures around 15-18°C though showers are likely. We alo recommend bringing a light jacket or wrap for the evening"
     }
   ];
 
@@ -124,7 +139,7 @@ export default function FAQ() {
           <p className="text-charcoal-600 mb-4">Ready to celebrate with us?</p>
           <button 
             className="font-cormorant bg-pink-200 hover:bg-pink-300 text-charcoal-800 px-8 py-4 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105 text-lg font-bold"
-            onClick={() => window.open('#', '_blank')}
+            onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdEKGsEr5HUDC_if_RIcEdsfb-kJR3B1JXQZQK37BIkxVEVRA/viewform?usp=dialog', '_blank')}
           >
             RSVP
           </button>

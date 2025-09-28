@@ -30,7 +30,7 @@ export default function LandingPage() {
         <div>
           <button 
             className="font-cormorant bg-pink-200 hover:bg-pink-300 text-charcoal-800 px-8 py-4 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105 text-lg font-bold"
-            onClick={() => window.open('#', '_blank')}
+            onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdEKGsEr5HUDC_if_RIcEdsfb-kJR3B1JXQZQK37BIkxVEVRA/viewform?usp=dialog', '_blank')}
           >
             RSVP
           </button>
