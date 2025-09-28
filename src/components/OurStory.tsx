@@ -39,7 +39,7 @@ export default function OurStory() {
               <ImageWithFallback
                 src="./image1.png"
                 alt="Frank and Alison's first year together. Forur pictures including selfies in Buttermere, at a wwaterfall, Lyzzick hall, and Ingleton"
-                className="h-full h-64 object-cover">
+                className="h-full h-64 object-contain">
               </ImageWithFallback>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function OurStory() {
               <ImageWithFallback
                 src="./image2.png"
                 alt="Frank and Alison since the enagagement, four pictures inluding Claife Viewing Station, Coniston, Harrison Stickle, and Horsforth in the snow"
-                className="h-full h-64 object-cover">
+                className="h-full h-64 object-contain">
               </ImageWithFallback>
             </div>
             <div className="space-y-4 sm:w-1/2">
