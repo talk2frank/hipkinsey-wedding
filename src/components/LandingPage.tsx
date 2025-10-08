@@ -22,7 +22,8 @@ export default function LandingPage() {
             Cragwood Country House Hotel, Windermere
           </p>
           <p className="font-cormorant text-xl text-charcoal-600">
-            Ceremony at 1:30pm & Evening Reception at 7:30pm
+            Ceremony at 1:30pm, please be seated by 1:15pm <br></br>
+            Evening Reception at 7:30pm
           </p>
         </div>
 

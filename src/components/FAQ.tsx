@@ -8,7 +8,7 @@ export default function FAQ() {
     },
     {
       question: "What time should I arrive?",
-      answer: "Please be in your seats by 1:00pm, the ceremony will start at 1:30pm. We ask evening guests to arrive at 7:30pm."
+      answer: "For the ceremony please be in your seats by 1:15pm, the ceremony will start at 1:30pm. We ask evening guests to arrive at 7:30pm."
     },
     {
      question: "How do I get to/from Cragwood Country House Hotel?",
