@@ -23,9 +23,9 @@ export default function OurStory() {
                 Snow threatened to derail our first date, and our second, and third come to that. 
                 Thanks to lockdown there was nowhere to grab a quick coffee, 
                 “a few drinks” or junk yard golf, designed to distract from how nervous and awkward first dates are. 
-                We had no choice but to sit in our discomfort, embarked on a more traditional courtship, 
-                and spent our first few months outside; getting to know each other the old fashioned way. 
-                It was on one of these snow dates in January 2021 that a ferocious snowball fight changed everything 
+                We had no choice but to sit in our discomfort, on a more traditional courtship, 
+                and spend our first few months outside; getting to know each other the old fashioned way. 
+                It was on one of these snowy dates in January 2021 that a ferocious snowball fight changed everything 
                 and I finally got to see Frank. As I launched my final, deafening (it landed in his ear) attack, 
                 I realised this was someone who I was going to laugh with, have fun with, and be myself with. 
                 I was right. Over the last four years we’ve created so many amazing memories; 14 plane journeys, 
@@ -62,7 +62,7 @@ export default function OurStory() {
                 and unless I'd drastically misjudged things, she'd soon be 'my fiance'. 
                 It had been over 6 months since I'd asked her father for her hand, 
                 2 months since I'd bought the ring, and what felt like a very long time waiting for the perfect moment. 
-                This was it. Well, at least it would be...if I could work out how to open the box: 
+                This was it. Well, at least it would be...if I could work out how to open the box. 
                 "I have a question to ask you... once I can get this box open". 
                 I didn't get the chance to put the ring on her finger, it was out and on her hand in a flash. 
                 Yes it was the perfect moment, and I knew there were more perfect moments to come... to be continued...
