@@ -56,8 +56,8 @@ export default function FAQ() {
     },
      {
      question: "Should I bring a gift or wedding present?",
-     answer: "Your presence is the greatest gift! If you'd like to gift something, we would greatly appreciate contributions to our honeymoon fund. We'll try set up a way to do that soon."
-    },
+     answer: "Your presence is the greatest gift! If you'd like to gift something we would greatly appreciate contributions to our honeymoon fund. See the gift page for details and a link, or contact us for more information."
+     },
      {
      question: "Can I bring a plus one?",
      answer: "We've allocated all plus-ones already, based on our venue capacity, and addressed our invitations accordingly. If you're unsure, please check your invitation or contact us directly."
