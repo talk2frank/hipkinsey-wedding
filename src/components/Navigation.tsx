@@ -1,13 +1,14 @@
 interface NavigationProps {
-  currentPage: 'home' | 'story' | 'faq';
-  onNavigate: (page: 'home' | 'story' | 'faq') => void;
+  currentPage: 'home' | 'story' | 'faq'| 'gifts';
+  onNavigate: (page: 'home' | 'story' | 'faq' | 'gifts') => void;
 }
 
 export default function Navigation({ currentPage, onNavigate }: NavigationProps) {
   const navItems = [
     { id: 'home' as const, label: 'Our Day' },
     { id: 'story' as const, label: 'Our Story' },
-    { id: 'faq' as const, label: 'FAQ' }
+    { id: 'faq' as const, label: 'FAQ' },
+    { id: 'gifts' as const, label: 'Gifts' }
   ];
 
   return (

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import LandingPage from './components/LandingPage';
 import OurStory from './components/OurStory';
+import GiftPage from './components/Gifts';
 import FAQ from './components/FAQ';
 
 type Page = 'home' | 'story' | 'faq';
@@ -36,6 +37,9 @@ export default function App() {
       )}
       {currentPage === 'faq' && (
         <FAQ />
+      )}
+      {currentPage === 'gifts' && (
+        <GiftPage/>
       )}
     </div>
   );
